@@ -97,7 +97,7 @@ body {
 
 .progress-area .progress-bar {
   height: inherit;
-  width: 50%;
+  width: 0%;
   background: linear-gradient(90deg, var(--pink) 0%, var(--violet) 100%);
   border-radius: inherit;
   position: relative;
@@ -200,7 +200,6 @@ body {
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.15s ease-out;
 }
-/* add this class when playlist icon clicked */
 .music-list.show {
   bottom: 0;
   opacity: 1;

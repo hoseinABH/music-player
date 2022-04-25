@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper paused">
       <!-- Topbar Sections -->
       <div class="top-bar">
         <i class="material-icons">expand_more</i>
@@ -37,21 +37,24 @@
       <div class="progress-area">
         <div class="progress-bar"></div>
         <div class="timer">
-          <span class="current">0:25</span>
-          <span class="current">3:25</span>
+          <span class="current">0:00</span>
+          <span class="duration"></span>
         </div>
+        <audio id="main-audio" src=""></audio>
       </div>
       <!-- Progress Sections -->
 
       <!-- Controls Sections -->
       <div class="controls">
-        <i id="repeat-plist" class="material-icons">repeat</i>
+        <i id="repeat-plist" title="Playlist Looped" class="material-icons"
+          >repeat</i
+        >
         <i id="prev" class="material-icons">skip_previous</i>
         <div class="play-pause">
           <i class="material-icons">play_arrow</i>
         </div>
         <i id="next" class="material-icons">skip_next</i>
-        <i id="more_music" class="material-icons">queue_music</i>
+        <i id="more-music" class="material-icons">queue_music</i>
       </div>
       <!-- Controls Sections -->
 
@@ -70,5 +73,7 @@
       </div>
       <!-- Music Playlist Sections -->
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
